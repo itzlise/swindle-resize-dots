@@ -13,11 +13,11 @@
 - **Idle / lock:** `hypridle`, `hyprlock`
 
 > [!NOTE]
-> These are for the desktop shell only. If you're setting up the full dotfiles (which include this config), follow the instructions in the main repo instead.
+> These are just the requirements for stuff to work and look ok ig.
 
 ## Swindle
 
-Build-time requirements for compiling swindle itself.
+Requirements for compiling swindle and well making it work.
 
 > [!WARNING]
 > `wlroots` must be `>=0.20` and compiled with the `libinput` backend, or the build will fail.
@@ -31,15 +31,13 @@ Build-time requirements for compiling swindle itself.
 
 ## Good to have
 
-Not required, but recommended for the full experience:
+Not required but you will have it if you are a sane person:
 
 - `firefox` — browser
 - `nautilus` — file manager
 - Graphics drivers
 - `wlr-randr` — set refresh rates
 - `waypaper` — restore & manage wallpapers
-- `awww` — wallpaper backend *(formerly `swww`)*
+- `awww or swaybg` — wallpaper backend 
 - `wlogout` — logout menu
 
-> [!TIP]
-> `awww` replaced `swww`, which is now archived. If a guide or script still references `swww`, swap it for `awww`.
