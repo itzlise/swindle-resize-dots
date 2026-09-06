@@ -96,6 +96,16 @@ keybinds = {
     { mods = {"logo", "shift"}, key = "greater", action = "tagmon", args = {"right"} },
     { mods = {"logo", "shift"}, key = "q",     action = "quit" },
     { mods = {"logo"},          key = "s",     action = "spawn",  args = {"/home/lis/.config/swindle/scripts/snip.sh"} },
+    { mods = {}, key = "XF86AudioRaiseVolume", action = "spawn", args = {"wpctl", "set-volume", "@DEFAULT_AUDIO_SINK@", "5%+"} },
+    { mods = {}, key = "XF86AudioLowerVolume", action = "spawn", args = {"wpctl", "set-volume", "@DEFAULT_AUDIO_SINK@", "5%-"} },
+    { mods = {}, key = "XF86AudioMute",        action = "spawn", args = {"wpctl", "set-mute", "@DEFAULT_AUDIO_SINK@", "toggle"} },
+    { mods = {}, key = "XF86AudioMicMute",     action = "spawn", args = {"wpctl", "set-mute", "@DEFAULT_AUDIO_SOURCE@", "toggle"} },
+    { mods = {}, key = "XF86AudioPlay",        action = "spawn", args = {"playerctl", "play-pause"} },
+    { mods = {}, key = "XF86AudioNext",        action = "spawn", args = {"playerctl", "next"} },
+    { mods = {}, key = "XF86AudioPrev",        action = "spawn", args = {"playerctl", "previous"} },
+    { mods = {}, key = "XF86AudioStop",        action = "spawn", args = {"playerctl", "stop"} },
+    { mods = {}, key = "XF86MonBrightnessUp",   action = "spawn", args = {"brightnessctl", "set", "5%+"} },
+    { mods = {}, key = "XF86MonBrightnessDown", action = "spawn", args = {"brightnessctl", "set", "5%-"} },
     
 }
 
