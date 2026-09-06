@@ -20,11 +20,11 @@
 Requirements for compiling swindle and well making it work.
 
 > [!WARNING]
-> `wlroots` must be `>=0.20` and compiled with the `libinput` backend, or the build will fail.
+> `wlroots` must be `0.20` and compiled with the `libinput` backend, or the build will fail.
 
 - `libinput`
 - `wayland`
-- `wlroots` (`>=0.20`, compiled with the `libinput` backend)
+- `wlroots0.20` (compiled with the `libinput` backend)
 - `xkbcommon`
 - `wayland-protocols` *(compile-time only)*
 - `pkg-config` *(compile-time only)*
