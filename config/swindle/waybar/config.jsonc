@@ -1,0 +1,59 @@
+{
+  "layer": "top",
+  "margin-right": 200,
+  "margin-top": 3,
+  "margin-left": 200,
+  "modules-left": [
+    "custom/1",
+    "custom/sep",
+    "custom/usrnm",
+    "custom/sep",
+    "ext/workspaces",
+    "custom/sep"
+  ],
+  "modules-right": [
+//    "custom/sep",
+//    "network",
+//    "custom/sep",
+//    "cpu",
+//    "custom/sep",
+//    "pulseaudio",
+//    "custom/sep",
+    "tray",
+    "dwl/window#title",
+    "clock"
+//    "custom/sep",
+  ],
+
+  "clock": {
+    "interval": 1,
+    "format": "{:%H:%M:%S}",
+    "format-alt": "{:%Y-%m-%d}"
+  },
+  "ext/workspaces": {
+    "format": "{icon}",
+    "ignore-hidden": false,
+    "on-click": "activate",
+    "sort-by-id": true
+  },
+  "dwl/tags": {
+    "num-tags": 9
+  },
+  "dwl/window#title": {
+    "format": "{title}",
+    "max-length": 25,
+    "separate-outputs": 0
+  },
+  "custom/sep": {
+    "format": "|",
+    "interval": 0
+  },
+  "custom/1": {
+    "format": "swindle!! // @_@"
+  },
+  "custom/usrnm": {
+    "format": "{}",
+    "exec": "whoami",
+    "interval": "once"
+  }
+}

@@ -1,0 +1,8 @@
+
+[Desktop Entry]
+Name=swindle
+Comment=Poor man's hyprland
+Exec=/usr/local/bin/swindle
+Type=Application
+DesktopNames=swindle
+Keywords=tiling;wayland;compositor;
